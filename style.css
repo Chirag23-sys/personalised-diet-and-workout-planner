@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background: linear-gradient(120deg, #56ccf2, #2f80ed);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.form-section {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    margin-bottom: 40px;
+}
+
+.form-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-section label {
+    flex: 1 1 120px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.form-section input,
+.form-section select {
+    flex: 2 1 220px;
+    padding: 12px 14px;
+    border: 2px solid #2f80ed;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.form-section button {
+    flex-basis: 100%;
+    padding: 14px;
+    background: #2f80ed;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-section button:hover {
+    background: #56ccf2;
+}
+
+.plan-section {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    text-align: center;
+}
+
+.plan-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    color: #2f80ed;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plan-card {
+    background: #f0f7ff;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 24px 32px;
+    border-radius: 18px;
+    box-shadow: 0 6px 14px rgba(47, 128, 237, 0.25);
+    font-size: 18px;
+    color: #1d3557;
+    text-align: left;
+}
+
+.extra-images {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.extra-images img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #f7f9fc;
+    color: #475569;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 60px;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
